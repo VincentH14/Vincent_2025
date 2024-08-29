@@ -9,6 +9,15 @@ My journey starts here.
 
 Hi my name is Vincent Herranen, Class of 2025
 
+
+<!--- Concatenation of site URL to frontmatter image  --->
+{% assign sprite_file = site.baseurl | append: page.image %}
+<!--- Has is a list variable containing mario metadata for sprite --->
+{% assign hash = site.data.mario_metadata %}  
+<!--- Size width/height of Sprit images --->
+{% assign pixels = 256 %}
+
+
 <!--- HTML for page contains <p> tag named "Mario" and class properties for a "sprite"  -->
 
 <p id="mario" class="sprite"></p>
