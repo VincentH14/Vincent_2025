@@ -3,7 +3,7 @@ description: "Class of 2025"
 owner_name: Vincent Herranen
 github_username: VincentH14
 github_repo: "Vincent_2025" 
-baseurl: "/vincent_2025"
+baseurl: "/Vincent_2025"
 future: true
 remote_theme: jekyll/minima
 minima:
