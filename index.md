@@ -7,57 +7,6 @@ image: /images/mario_animation.png
 ---
 
 
-<div style="display: flex; justify-content: center; gap: 30px; padding: 40px; background-color: #e0f7fa; border-radius: 20px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
- <div style="text-align: center;">
-    <a href="about" style="text-decoration: none;">
-       <button style="background-color: #ff6f61; color: white; border: none; padding: 20px 50px; font-size: 18px; border-radius: 50px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;">
-          Notebook 1
-       </button>
-    </a>
- </div>
- <div style="text-align: center;">
-    <a href="blog" style="text-decoration: none;">
-       <button style="background-color: #ffcc00; color: black; border: none; padding: 20px 50px; font-size: 18px; border-radius: 50px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;">
-          Notebook 2
-       </button>
-    </a>
- </div>
-
-
- <div style="text-align: center;">
-    <a href="notebook3" style="text-decoration: none;">
-       <button style="background-color: #00bcd4; color: white; border: none; padding: 20px 50px; font-size: 18px; border-radius: 50px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;">
-          Notebook 3
-       </button>
-    </a>
- </div>
-</div>
-
-
-<style>
- button:hover {
-   background-color: #ff8a80;
-   transform: scale(1.1);
- }
-
-
- button:active {
-   transform: scale(0.95);
- }
-
-
- a:nth-child(2) button:hover {
-   background-color: #ffee58;
- }
-
-
- a:nth-child(3) button:hover {
-   background-color: #80deea;
- }
-</style>
-
-
-<data>
 
 
 
@@ -257,5 +206,3 @@ image: /images/mario_animation.png
    to { transform: translateX(100vw); }
  }
 </style>
-
- 

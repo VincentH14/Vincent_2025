@@ -1,11 +1,12 @@
 ---
 layout: page
-title: About Me
+title: 
 permalink: /about/
 image: /images/finland.png
 ---
 
 
+<h1>About Me</h1>
 
 
 <style>
@@ -89,5 +90,5 @@ I took a computer science class because I wanted to challenge myself and gain a 
 
 
 ## My Background
-<p>The move</p>
+<p>The move from Finland was extremely hard as I had to learn a new language and a adapt to a new culture.</p>
 

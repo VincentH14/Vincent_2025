@@ -5,7 +5,7 @@ github_username: VincentH14
 github_repo: "Vincent_2025" 
 baseurl: "/Vincent_2025"
 future: true
-remote_theme: minima/leaf/_leaf
+remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:
