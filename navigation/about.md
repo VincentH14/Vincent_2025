@@ -5,7 +5,7 @@ permalink: /about/
 image: /images/finland.png
 ---
 
-
+{% include nav/home.html %}
 <h1>About Me</h1>
 
 

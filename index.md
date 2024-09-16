@@ -9,7 +9,7 @@ image: /images/mario_animation.png
 
 
 
-
+{% include nav/home.html %}
 
 
 
