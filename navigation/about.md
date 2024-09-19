@@ -83,12 +83,22 @@ image: /images/finland.png
 <p>My name is Vincent Herranen, I was born and raised in Finland. When I was 6 I moved to California and I loved it here. I love sports and watch any soccer game from whatever league or country ever chance I have. 
 I took a computer science class because I wanted to challenge myself and gain a deeper understanding of how computers work. I also thought it would help with many aspects in whatever career I choose to pursue. </p>
 
-## My Favorite Things
+<h1> My Favorite Things</h1>
 <a href="https://en.wikipedia.org/wiki/Lacrosse"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Lacrosse_stick_8028.jpg" alt="Lacrosse Stick" width=250></a>
 <a href="https://en.wikipedia.org/wiki/Association_football"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Soccer_ball.svg" alt="Soccer ball" width=250></a>
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Spaghetti_al_Pomodoro.JPG" alt="Pasta" width=250>
 
 
-## My Background
+<h1> My Background</h1>
 <p>The move from Finland was extremely hard as I had to learn a new language and a adapt to a new culture. But I pushed and perserved past it and I feel like thats helped me become the person I am today!</p>
 
+
+
+<script src="https://utteranc.es/client.js"
+        repo="VincentH14/Vincent_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
