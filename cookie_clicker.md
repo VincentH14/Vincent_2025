@@ -6,6 +6,8 @@ hide: true
 
 ---
 
+{% include nav/home.html %}
+
 <h1>Cookie Clicker</h1>
     
 <img id="cookie" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Choco_chip_cookie.jpg" alt="cookie" width="200px">
