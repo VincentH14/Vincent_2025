@@ -21,7 +21,7 @@ hide: true
 <script>
         let cookies = 0;
         let cookiesPerClick = 1;
-        let autoClickerCost = 15;
+        let autoClickerCost = 10;
         let doubleClickCost = 20;
         let cheatsCost = 0;
         let autoClickerActive = false;
