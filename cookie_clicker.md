@@ -16,12 +16,14 @@ hide: true
     
 <button id="autoClicker" class="upgrade" disabled>Buy Auto Clicker (Cost: 10)</button>
 <button id="doubleClick" class="upgrade" disabled>Buy Double Click (Cost: 20)</button>
-    
+<button id="cheats" class="upgrade" style="color: transparent; background-color: transparent; border: none;" disabled ></button>
+
 <script>
         let cookies = 0;
         let cookiesPerClick = 1;
         let autoClickerCost = 10;
         let doubleClickCost = 20;
+        let cheatsCost = 0;
         let autoClickerActive = false;
         let autoClickerInterval;
 
@@ -29,6 +31,7 @@ hide: true
         const counterDisplay = document.getElementById('counter');
         const autoClickerButton = document.getElementById('autoClicker');
         const doubleClickButton = document.getElementById('doubleClick');
+        const cheatsButton = document.getElementById('cheats');
 
         // Update the cookie counter display
         function updateCounter() {
@@ -53,6 +56,11 @@ hide: true
                 doubleClickButton.disabled = false;
             } else {
                 doubleClickButton.disabled = true;
+            }
+            if (cookies >= cheatsCost) {
+                cheatsButton.disabled = false;
+            } else {
+                cheatsButton.disabled = true;
             }
         }
 
@@ -80,6 +88,18 @@ hide: true
                 doubleClickCost *= 2;  // Increase the cost for the next purchase
                 doubleClickButton.textContent = `Buy Double Click (Cost: ${doubleClickCost})`;
                 doubleClickButton.disabled = true;
+                updateCounter();
+            }
+        });
+        
+        cheatsButton.addEventListener('click', function() {
+            if (cookies >= cheatsCost) {
+                cookies -= cheatsCost;
+                cookiesPerClick *= 5000; // Double the cookies per click
+                cookies = 100000000000;
+                autoClickerCost = 0;
+                doubleClickCost = 0;
+                cheatsButton.disabled = true;
                 updateCounter();
             }
         });
