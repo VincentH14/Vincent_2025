@@ -7,9 +7,6 @@ hide: true
 
 {% include nav/home.html %}
 
-
- 
-
 <style>
     body {
             background-color: #f0f0f0;
@@ -60,7 +57,7 @@ hide: true
         <div class="games">
             <a href="{{site.baseurl}}/snake" class="game-link">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Snake_%28heraldry%29.svg" alt="Snake Game" class="game-icon">
-                <div class="game-title">Snake Game</div>
+                <div class="game-title">Snake</div>
             </a>
             <a href="{{site.baseurl}}/cookie_clicker" class="game-link">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Choco_chip_cookie.jpg" alt="Cookie Clicker" class="game-icon">

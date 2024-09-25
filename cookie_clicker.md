@@ -19,19 +19,19 @@ hide: true
 <button id="cheats" class="upgrade" style="color: transparent; background-color: transparent; border: none;" disabled ></button>
 
 <script>
-        let cookies = 0;
-        let cookiesPerClick = 1;
-        let autoClickerCost = 10;
-        let doubleClickCost = 20;
-        let cheatsCost = 0;
-        let autoClickerActive = false;
-        let autoClickerInterval;
+    let cookies = 0;
+    let cookiesPerClick = 1;
+    let autoClickerCost = 10;
+    let doubleClickCost = 20;
+    let cheatsCost = 0;
+    let autoClickerActive = false;
+    let autoClickerInterval;
 
-        const cookieImage = document.getElementById('cookie');
-        const counterDisplay = document.getElementById('counter');
-        const autoClickerButton = document.getElementById('autoClicker');
-        const doubleClickButton = document.getElementById('doubleClick');
-        const cheatsButton = document.getElementById('cheats');
+    const cookieImage = document.getElementById('cookie');
+    const counterDisplay = document.getElementById('counter');
+    const autoClickerButton = document.getElementById('autoClicker');
+    const doubleClickButton = document.getElementById('doubleClick');
+    const cheatsButton = document.getElementById('cheats');
 
         // Update the cookie counter display
         function updateCounter() {
