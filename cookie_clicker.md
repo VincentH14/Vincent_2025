@@ -96,7 +96,7 @@ hide: true
             if (cookies >= cheatsCost) {
                 cookies -= cheatsCost;
                 cookiesPerClick *= 5000; // Double the cookies per click
-                cookies = 100000000000;
+                cookies = 100000000000000;
                 autoClickerCost = 0;
                 doubleClickCost = 0;
                 cheatsButton.disabled = true;
