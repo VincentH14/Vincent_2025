@@ -90,7 +90,7 @@ I took a computer science class because I wanted to challenge myself and gain a 
 
 
 <h1> My Background</h1>
-<p>The move from Finland was extremely hard as I had to learn a new language and a adapt to a new culture. But I pushed and perserved past it and I feel like thats helped me become the person I am today!</p>
+<p>The move from Finland was extremely hard as I had to learn a new language and a adapt to a new culture. But I pushed and perserved past it and I feel like thats helped me become the person I am today.</p>
 
 
 
