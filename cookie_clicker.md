@@ -23,7 +23,7 @@ hide: true
     let cookiesPerClick = 1;
     let autoClickerCost = 10;
     let doubleClickCost = 20;
-    let cheatsCost = 0;
+    let cheatsCost = 1;
     let autoClickerActive = false;
     let autoClickerInterval;
 
