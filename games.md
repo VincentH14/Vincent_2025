@@ -40,7 +40,7 @@ hide: true
             border-radius: 15px;
             padding: 10px;
             background-color: white;
-            transition: transform 0.2s ease;
+            transition: transform 0.3s ease;
         }
         .game-icon:hover {
             transform: scale(1.1);
