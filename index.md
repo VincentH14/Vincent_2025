@@ -62,7 +62,7 @@ image: /images/mario_animation.png
             bottom: -50px; /* Adjusted for further distance from button */
             left: 50%;
             transform: translateX(-50%);
-            z-index: 10;
+            z-index: 3; /* Ensure tooltips are above buttons */
             transition: visibility 0.2s, opacity 0.2s ease-in-out;
             opacity: 0;
         }
@@ -123,7 +123,29 @@ image: /images/mario_animation.png
     <a href="page3.12.html" class="grid-button">
         3.12
         <span class="tooltip">Description 3.12</span>
-
-</body>
-</html>
-
+    </a>
+    <a href="page3.13.html" class="grid-button">
+        3.13
+        <span class="tooltip">Description 3.13</span>
+    </a>
+    <a href="page3.14.html" class="grid-button">
+        3.14
+        <span class="tooltip">Description 3.14</span>
+    </a>
+    <a href="page3.15.html" class="grid-button">
+        3.15
+        <span class="tooltip">Description 3.15</span>
+    </a>
+    <a href="page3.16.html" class="grid-button">
+        3.16
+        <span class="tooltip">Description 3.16</span>
+    </a>
+    <a href="page3.17.html" class="grid-button">
+        3.17
+        <span class="tooltip">Description 3.17</span>
+    </a>
+    <a href="page3.18.html" class="grid-button">
+        3.18
+        <span class="tooltip">Description 3.18</span>
+    </a>
+</div>
