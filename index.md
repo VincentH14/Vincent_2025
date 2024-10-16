@@ -72,10 +72,12 @@ image: /images/mario_animation.png
 
 <div class="grid-container">
     <div class="backdrop"></div> <!-- Moved backdrop inside grid-container -->
+    <a href="{{site.baseurl}}/games" style="text-decoration: none;">
     <button class="grid-button">
         3.1
         <span class="tooltip">Description 3.1</span>
     </button>
+    </a>
     <button class="grid-button">
         3.2
         <span class="tooltip">Description 3.2</span>
