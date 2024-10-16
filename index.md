@@ -15,6 +15,7 @@ image: /images/mario_animation.png
             height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
+            bottom: -10px;
         }
         .grid-container {
             display: grid;
@@ -77,15 +78,12 @@ image: /images/mario_animation.png
     <div class="backdrop"></div>
     <a href="page3.10.html" class="grid-button">
         Github Page
-        <span class="tooltip">Description 3.10</span>
     </a>
     <a href="page3.11.html" class="grid-button">
         Github Analytics
-        <span class="tooltip">Description 3.11</span>
     </a>
     <a href="page3.12.html" class="grid-button">
         JS for Loops
-        <span class="tooltip">Description 3.12</span>
     </a>
     <a href="page3.1.html" class="grid-button">
         3.1
@@ -117,10 +115,10 @@ image: /images/mario_animation.png
     </a>
     <a href="page3.8.html" class="grid-button">
         3.8
-        <span class="tooltip">Description 3.8</span>
+        <span class="tooltip">3.8.1-3.8.4</span>
     </a>
     <a href="page3.9.html" class="grid-button">
-        3.9
-        <span class="tooltip">Description 3.9</span>
+        3.10
+        <span class="tooltip">3.10.1-3.10.4</span>
     </a>
 </div>
