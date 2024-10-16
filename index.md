@@ -7,6 +7,7 @@ image: /images/mario_animation.png
 ---
 
 
+
 <style>
         body {
             display: flex;
@@ -76,20 +77,20 @@ image: /images/mario_animation.png
 
 <div class="grid-container">
     <div class="backdrop"></div>
-    <a href="page3.10.html" class="grid-button">
-        Github Page
+    <a href="https://github.com/VincentH14" class="grid-button">
+        Github
     </a>
-    <a href="page3.11.html" class="grid-button">
+    <a href="https://nighthawkcoders.github.io/portfolio_2025/analytics" class="grid-button">
         Github Analytics
     </a>
-    <a href="page3.12.html" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/16/3-11_IPYNB_2_.html" class="grid-button">
         JS for Loops
     </a>
     <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/09/3-1_IPYNB_2_.html" class="grid-button">
         3.1
         <span class="tooltip">3.1.1-3.1.4</span>
     </a>
-    <a href="http://127.0.0.1:4100/Vincent_2025/" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/09/3-2_IPYNB_2_.html" class="grid-button">
         3.2
         <span class="tooltip">3.2.1-3.2.9</span>
     </a>
@@ -105,19 +106,19 @@ image: /images/mario_animation.png
         3.5
         <span class="tooltip">3.5.1-3.5.4</span>
     </a>
-    <a href="http://127.0.0.1:4100/Vincent_2025/" class="grid-button">
+    <a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/3-6" class="grid-button">
         3.6
         <span class="tooltip">3.6.1-3.6.2</span>
     </a>
-    <a href="http://127.0.0.1:4100/Vincent_2025/" class="grid-button">
+    <a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/3-7" class="grid-button">
         3.7
         <span class="tooltip">3.7.1-3.7.2</span>
     </a>
-    <a href="http://127.0.0.1:4100/Vincent_2025/2024-10-04-3-8.ipynb" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/04/3-8_IPYNB_2_.html" class="grid-button">
         3.8
         <span class="tooltip">3.8.1-3.8.4</span>
     </a>
-    <a href="page3.9.html" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/04/3-10_IPYNB_2_.html" class="grid-button">
         3.10
         <span class="tooltip">3.10.1-3.10.4.9</span>
     </a>
