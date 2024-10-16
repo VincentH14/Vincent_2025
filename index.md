@@ -8,49 +8,58 @@ image: /images/mario_animation.png
 
 
 <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(3, 100px);
-            grid-gap: 20px;
+            grid-template-columns: repeat(3, 150px); /* 3 columns */
+            grid-gap: 30px; /* Increased gap */
             position: relative;
         }
         .backdrop {
             position: absolute;
-            top: -10px;
-            left: -10px;
-            width: calc(100% + 20px);
-            height: calc(100% + 20px);
+            top: -15px; /* Adjusted for slight overflow */
+            left: -15px; /* Adjusted for slight overflow */
+            width: calc(100% + 30px); /* Slightly wider than the grid */
+            height: calc(100% + 30px); /* Slightly taller than the grid */
             background-color: rgba(0, 0, 0, 0.5);
             z-index: 1;
             border-radius: 10px; /* Optional: rounded corners */
         }
         .grid-button {
             position: relative;
-            padding: 20px;
+            padding: 30px; /* Increased padding for larger buttons */
             background-color: #007bff;
             color: white;
             border: none;
             border-radius: 5px;
-            font-size: 18px;
+            font-size: 20px; /* Increased font size */
             cursor: pointer;
             transition: background-color 0.3s;
             text-decoration: none; /* Remove underline */
             display: inline-block; /* Make anchor behave like a button */
             text-align: center; /* Center text */
+            z-index: 2; /* Ensure buttons are above the backdrop */
         }
         .grid-button:hover {
             background-color: #0056b3;
         }
         .tooltip {
             visibility: hidden;
-            width: 100px;
+            width: 120px; /* Increased width */
             background-color: rgba(0, 0, 0, 0.75);
             color: #fff;
             text-align: center;
             border-radius: 5px;
             padding: 5px;
             position: absolute;
-            bottom: -30px;
+            bottom: -50px; /* Adjusted for further distance from button */
             left: 50%;
             transform: translateX(-50%);
             z-index: 10;
@@ -62,8 +71,8 @@ image: /images/mario_animation.png
             opacity: 1;
         }
     </style>
-
-
+</head>
+<body>
 
 <div class="grid-container">
     <div class="backdrop"></div>
@@ -103,5 +112,18 @@ image: /images/mario_animation.png
         3.9
         <span class="tooltip">Description 3.9</span>
     </a>
-</div>
+    <a href="page3.10.html" class="grid-button">
+        3.10
+        <span class="tooltip">Description 3.10</span>
+    </a>
+    <a href="page3.11.html" class="grid-button">
+        3.11
+        <span class="tooltip">Description 3.11</span>
+    </a>
+    <a href="page3.12.html" class="grid-button">
+        3.12
+        <span class="tooltip">Description 3.12</span>
+
+</body>
+</html>
 
