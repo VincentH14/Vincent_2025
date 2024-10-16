@@ -80,8 +80,8 @@ image: /images/mario_animation.png
     <a href="{{site.baseurl}}/about" class="grid-button">
         About me
     </a>
-    <a href="{{site.baseurl}}/games" class="grid-button">
-        Games
+    <a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals" class="grid-button">
+        Unit 3 Notes
     </a>
     <a href="https://vincenth14.github.io/Vincent_2025/2024/10/09/3-11_IPYNB_2_.html" class="grid-button">
         JS for Loops
