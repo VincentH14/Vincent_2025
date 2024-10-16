@@ -8,14 +8,6 @@ image: /images/mario_animation.png
 
 
 <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
         .grid-container {
             display: grid;
             grid-template-columns: repeat(3, 100px);
@@ -24,11 +16,11 @@ image: /images/mario_animation.png
         }
         .backdrop {
             position: absolute;
-            top: -10px; /* Adjusted for slight overflow */
-            left: -10px; /* Adjusted for slight overflow */
-            width: calc(100% + 20px); /* Slightly wider than the grid */
-            height: calc(100% + 20px); /* Slightly taller than the grid */
-            background-color: rgba(1, 0, 0, 0.5);
+            top: -10px;
+            left: -10px;
+            width: calc(100% + 20px);
+            height: calc(100% + 20px);
+            background-color: rgba(0, 0, 0, 0.5);
             z-index: 1;
             border-radius: 10px; /* Optional: rounded corners */
         }
@@ -42,6 +34,9 @@ image: /images/mario_animation.png
             font-size: 18px;
             cursor: pointer;
             transition: background-color 0.3s;
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Make anchor behave like a button */
+            text-align: center; /* Center text */
         }
         .grid-button:hover {
             background-color: #0056b3;
@@ -68,48 +63,45 @@ image: /images/mario_animation.png
         }
     </style>
 
-<body>
+
 
 <div class="grid-container">
-    <div class="backdrop"></div> <!-- Moved backdrop inside grid-container -->
-    <a href="{{site.baseurl}}/games" style="text-decoration: none;">
-    <button class="grid-button">
+    <div class="backdrop"></div>
+    <a href="page3.1.html" class="grid-button">
         3.1
         <span class="tooltip">Description 3.1</span>
-    </button>
     </a>
-    <button class="grid-button">
+    <a href="page3.2.html" class="grid-button">
         3.2
         <span class="tooltip">Description 3.2</span>
-    </button>
-    <button class="grid-button">
+    </a>
+    <a href="page3.3.html" class="grid-button">
         3.3
         <span class="tooltip">Description 3.3</span>
-    </button>
-    <button class="grid-button">
+    </a>
+    <a href="page3.4.html" class="grid-button">
         3.4
         <span class="tooltip">Description 3.4</span>
-    </button>
-    <button class="grid-button">
+    </a>
+    <a href="page3.5.html" class="grid-button">
         3.5
         <span class="tooltip">Description 3.5</span>
-    </button>
-    <button class="grid-button">
+    </a>
+    <a href="page3.6.html" class="grid-button">
         3.6
         <span class="tooltip">Description 3.6</span>
-    </button>
-    <button class="grid-button">
+    </a>
+    <a href="page3.7.html" class="grid-button">
         3.7
         <span class="tooltip">Description 3.7</span>
-    </button>
-    <button class="grid-button">
+    </a>
+    <a href="page3.8.html" class="grid-button">
         3.8
         <span class="tooltip">Description 3.8</span>
-    </button>
-    <button class="grid-button">
+    </a>
+    <a href="page3.9.html" class="grid-button">
         3.9
         <span class="tooltip">Description 3.9</span>
-    </button>
+    </a>
 </div>
 
-</body>
