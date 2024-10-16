@@ -83,7 +83,7 @@ image: /images/mario_animation.png
     <a href="https://nighthawkcoders.github.io/portfolio_2025/analytics" class="grid-button">
         Github Analytics
     </a>
-    <a href="https://vincenth14.github.io/Vincent_2025//2024/10/16/3-11_IPYNB_2_.html" class="grid-button">
+    <a href="https://vincenth14.github.io/Vincent_2025/2024/10/16/3-11_IPYNB_2_.html" class="grid-button">
         JS for Loops
     </a>
     <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/09/3-1_IPYNB_2_.html" class="grid-button">
