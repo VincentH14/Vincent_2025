@@ -28,7 +28,7 @@ image: /images/mario_animation.png
             left: -10px; /* Adjusted for slight overflow */
             width: calc(100% + 20px); /* Slightly wider than the grid */
             height: calc(100% + 20px); /* Slightly taller than the grid */
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(1, 0, 0, 0.5);
             z-index: 1;
             border-radius: 10px; /* Optional: rounded corners */
         }
