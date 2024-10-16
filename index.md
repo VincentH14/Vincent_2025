@@ -59,7 +59,7 @@ image: /images/mario_animation.png
             border-radius: 5px;
             padding: 5px;
             position: absolute;
-            bottom: -50px; /* Adjusted for further distance from button */
+            bottom: -20px; /* Adjusted for further distance from button */
             left: 50%;
             transform: translateX(-50%);
             z-index: 3; /* Ensure tooltips are above buttons */
@@ -75,33 +75,45 @@ image: /images/mario_animation.png
 
 <div class="grid-container">
     <div class="backdrop"></div>
+    <a href="page3.10.html" class="grid-button">
+        Github Page
+        <span class="tooltip">Description 3.10</span>
+    </a>
+    <a href="page3.11.html" class="grid-button">
+        Github Analytics
+        <span class="tooltip">Description 3.11</span>
+    </a>
+    <a href="page3.12.html" class="grid-button">
+        JS for Loops
+        <span class="tooltip">Description 3.12</span>
+    </a>
     <a href="page3.1.html" class="grid-button">
         3.1
-        <span class="tooltip">Description 3.1</span>
+        <span class="tooltip">3.1.1-3.1.4</span>
     </a>
     <a href="page3.2.html" class="grid-button">
         3.2
-        <span class="tooltip">Description 3.2</span>
+        <span class="tooltip">3.2.1-3.2.9</span>
     </a>
     <a href="page3.3.html" class="grid-button">
         3.3
-        <span class="tooltip">Description 3.3</span>
+        <span class="tooltip">3.3.1-3.3.4</span>
     </a>
     <a href="page3.4.html" class="grid-button">
         3.4
-        <span class="tooltip">Description 3.4</span>
+        <span class="tooltip">3.4.1-3.4.4</span>
     </a>
     <a href="page3.5.html" class="grid-button">
         3.5
-        <span class="tooltip">Description 3.5</span>
+        <span class="tooltip">3.5.1-3.5.4</span>
     </a>
     <a href="page3.6.html" class="grid-button">
         3.6
-        <span class="tooltip">Description 3.6</span>
+        <span class="tooltip">3.6.1-3.6.2</span>
     </a>
     <a href="page3.7.html" class="grid-button">
         3.7
-        <span class="tooltip">Description 3.7</span>
+        <span class="tooltip">3.7.1-3.7.2</span>
     </a>
     <a href="page3.8.html" class="grid-button">
         3.8
@@ -110,17 +122,5 @@ image: /images/mario_animation.png
     <a href="page3.9.html" class="grid-button">
         3.9
         <span class="tooltip">Description 3.9</span>
-    </a>
-    <a href="page3.10.html" class="grid-button">
-        3.10
-        <span class="tooltip">Description 3.10</span>
-    </a>
-    <a href="page3.11.html" class="grid-button">
-        3.11
-        <span class="tooltip">Description 3.11</span>
-    </a>
-    <a href="page3.12.html" class="grid-button">
-        3.12
-        <span class="tooltip">Description 3.12</span>
     </a>
 </div>
