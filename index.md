@@ -36,8 +36,8 @@ image: /images/mario_animation.png
         .grid-button {
             position: relative;
             padding: 30px; /* Increased padding for larger buttons */
-            background-color: #007bff;
-            color: white;
+            background-color: #535452;
+            color: #fbfcfa;
             border: none;
             border-radius: 5px;
             font-size: 20px; /* Increased font size */
@@ -113,12 +113,12 @@ image: /images/mario_animation.png
         3.7
         <span class="tooltip">3.7.1-3.7.2</span>
     </a>
-    <a href="page3.8.html" class="grid-button">
+    <a href="2024-10-04-3-8.ipynb" class="grid-button">
         3.8
         <span class="tooltip">3.8.1-3.8.4</span>
     </a>
     <a href="page3.9.html" class="grid-button">
         3.10
-        <span class="tooltip">3.10.1-3.10.4</span>
+        <span class="tooltip">3.10.1-3.10.4.9</span>
     </a>
 </div>
