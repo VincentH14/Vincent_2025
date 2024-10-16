@@ -85,35 +85,35 @@ image: /images/mario_animation.png
     <a href="page3.12.html" class="grid-button">
         JS for Loops
     </a>
-    <a href="page3.1.html" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/09/3-1_IPYNB_2_.html" class="grid-button">
         3.1
         <span class="tooltip">3.1.1-3.1.4</span>
     </a>
-    <a href="page3.2.html" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/" class="grid-button">
         3.2
         <span class="tooltip">3.2.1-3.2.9</span>
     </a>
-    <a href="page3.3.html" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/09/3-3-,-3-5_IPYNB_2_.html" class="grid-button">
         3.3
         <span class="tooltip">3.3.1-3.3.4</span>
     </a>
-    <a href="page3.4.html" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/09/3-4_IPYNB_2_.html" class="grid-button">
         3.4
         <span class="tooltip">3.4.1-3.4.4</span>
     </a>
-    <a href="page3.5.html" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/09/3-3-,-3-5_IPYNB_2_.html" class="grid-button">
         3.5
         <span class="tooltip">3.5.1-3.5.4</span>
     </a>
-    <a href="page3.6.html" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/" class="grid-button">
         3.6
         <span class="tooltip">3.6.1-3.6.2</span>
     </a>
-    <a href="page3.7.html" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/" class="grid-button">
         3.7
         <span class="tooltip">3.7.1-3.7.2</span>
     </a>
-    <a href="2024-10-04-3-8.ipynb" class="grid-button">
+    <a href="http://127.0.0.1:4100/Vincent_2025/2024-10-04-3-8.ipynb" class="grid-button">
         3.8
         <span class="tooltip">3.8.1-3.8.4</span>
     </a>
