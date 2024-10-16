@@ -118,7 +118,7 @@ image: /images/mario_animation.png
         3.8
         <span class="tooltip">3.8.1-3.8.4</span>
     </a>
-    <a href="http://127.0.0.1:4100/Vincent_2025/2024/10/04/3-10_IPYNB_2_.html" class="grid-button">
+    <a href="https://vincenth14.github.io/Vincent_2025/2024/10/04/3-10_IPYNB_2_.html" class="grid-button">
         3.10
         <span class="tooltip">3.10.1-3.10.4.9</span>
     </a>
