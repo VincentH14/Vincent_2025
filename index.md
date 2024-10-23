@@ -77,7 +77,7 @@ image: /images/mario_animation.png
 
 <div class="grid-container">
     <div class="backdrop"></div>
-    <a href="{{site.baseurl}}/about" class="grid-button">
+    <a href="https://vincenth14.github.io/Vincent_2025/2024/10/17/Final-Project_IPYNB_2_.html" class="grid-button">
         Sprint 2 Final
     </a>
     <a href="https://vincenth14.github.io/Vincent_2025/2024/10/21/Reflection_IPYNB_2_.html" class="grid-button">
