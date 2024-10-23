@@ -78,7 +78,7 @@ image: /images/mario_animation.png
 <div class="grid-container">
     <div class="backdrop"></div>
     <a href="{{site.baseurl}}/about" class="grid-button">
-        About me
+        Sprint 2 Final
     </a>
     <a href="https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p2/fundamentals" class="grid-button">
         Unit 3 Notes
