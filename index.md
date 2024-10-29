@@ -54,7 +54,7 @@ image: /images/mario_animation.png
         }
         .tooltip {
             visibility: hidden;
-            width: 120px; /* Increased width */
+            width: 121px; /* Increased width */
             background-color: rgba(0, 0, 0, 0.75);
             color: #fff;
             text-align: center;
