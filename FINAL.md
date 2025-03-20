@@ -4,6 +4,7 @@ title: Final Review
 description: Final
 hide: true
 image: /posts.png
+comments: True
 ---
 
 <style>
@@ -46,6 +47,13 @@ image: /posts.png
             background-color: white;
             margin: 15px 0;
             opacity: 0.5;
+        }
+        code {
+        width: 600px;
+        font-family: 'Source Code Pro', monospace;
+        color: #43892a;
+        background-color: #000;
+        display: block;
         }
 </style>
 
@@ -153,58 +161,49 @@ image: /posts.png
 </div>
 
 <div class="section">
-        <h2>1/1 Point - Project Feature Blog Write-Up</h2>
-        <button class="toggle-btn" onclick="toggleSection('blog')">See More</button>
-        <div id="blog" class="content">
-        <img src="posts.png" width="500">
-        <img src="burndown.png" width="500">
+    <h2>PPR + MCQ Blog Write-Up</h2>
+    <button class="toggle-btn" onclick="toggleSection('blog')">See More</button>
+    <h1>Parts of PPR, Component C of CPT:</h1>
+    <p>4 Code segments to be submitted</p>
+    <ul>
+        <li>List creation</li>
+        <li>List processing</li>
+        <li>Function (with parameters that goes through the list and has an if-else statement, sequencing, selection, iteration)</li>
+        <li>Call to function</li>
+    </ul>
+    <div class="section">
+        <h2>List Creation</h2>
         <p>
-            The <strong>Binary Overflow</strong> feature, inspired by Stack Overflow, allows users to collaborate, post, and discuss other features on our group’s website, fostering a shared knowledge base for problem-solving and innovation.
-            This feature incorporates fundamental programming concepts such as <strong>dictionaries, lists, sequencing, selection, and iteration</strong> to ensure efficient functionality.
+        This line retrieves all Channel objects from the database and stores them in a list called channels.
         </p>
-        <p>
-            <strong>Dictionaries</strong> are used to store and retrieve user data, posts, and comments, allowing for quick access and organization. <strong>Lists</strong> manage collections of posts, enabling sorting and filtering based on user preferences or trending discussions.
-        </p>
-        <img src="database.png" width="500">
-        <p>
-            <strong>Sequencing</strong> ensures that operations such as posting, editing, and retrieving discussions occur in a logical order, maintaining data integrity.
-        </p>
-        <img src="1.png" width="500">
-        <p>
-            <strong>Selection</strong> is implemented through conditional statements that determine user permissions, such as moderating content or restricting certain actions based on user roles.
-            Finally, <strong>iteration</strong> is applied in features like looping through posts to display them on the website, searching through comments, or updating user statistics dynamically.
-        </p>
-            <img src="2.png" width="500">
-            <img src="6.png" width="500">
-        </div>
     </div>
+    <div class="section">
+        <h2>List Process</h2>
+        <p>
+        This line processes each Channel object in the channels list by calling a .read() method, which  converts the object into a JSON dictionary. The result is stored in a new list json_ready.
+        </p>
+    </div>
+    <div class="section">
+        <h2>Function (with parameters, and if-else statement)</h2>
+        <p>
+            This function retrieves all channels under a specified group name and follows proper sequencing by executing steps in a logical order: obtaining input, validating it, querying the database, processing data, and returning a response. It first extracts JSON input from the request and checks for required fields using selection (if statements), returning error messages if data is missing. Then, it queries the database to find the group by name and ensures it exists before proceeding. Once the group is found, it retrieves all channels associated with the group's ID and processes them using iteration (list comprehension) to call each channel’s .read() method, converting it into a JSON-serializable format. Finally, it returns the processed data as a JSON response.
+        </p>
+    </div>
+    <div class="section">
+        <h2>Function Call</h2>
+        <p>
+            Explanation: This function sends a new leaderboard entry for the current user to an API endpoint. It structures the data as a JSON object, ensures that all necessary fields are included, and makes a POST request to the backend.
+        </p>
+    </div>
+
 
 <div class="section">
-        <h2>1/1 Point - MCQ</h2>
-        <button class="toggle-btn" onclick="toggleSection('mcq')">See More</button>
-        <div id="mcq" class="content">
-            <img src="9.png" width=1000>
-            <img src="10.png" width=1000>
-            <img src="11.png" width=1000>
-            <p>Looking at my AP College Board MCQ results, I did really well in areas like Boolean expressions, conditionals, iteration, and computing ethics, where I scored 100%. I also feel confident in developing algorithms and extracting information from data, though there's still some room for improvement. However, I struggled with mathematical expressions, calling procedures, and undecidable problems, which are areas I need to work on. If I can strengthen my understanding of these weaker topics, I’ll be in a much better position overall.</p>
-        </div>
+    <h2>MCQ</h2>
+    <button class="toggle-btn" onclick="toggleSection('mcq')">See More</button>
+    <div id="mcq" class="content">
+        <img src="9.png" width=1000>
+        <img src="10.png" width=1000>
+        <img src="11.png" width=1000>
+        <p>Looking at my AP College Board MCQ results, I did really well in areas like Boolean expressions, conditionals, iteration, and computing ethics, where I scored 100%. I also feel confident in developing algorithms and extracting information from data, though there's still some room for improvement. However, I struggled with mathematical expressions, calling procedures, and undecidable problems, which are areas I need to work on. If I can strengthen my understanding of these weaker topics, I’ll be in a much better position overall.</p>
     </div>
-
-<div class="section mcq">
-        <h2>1 Point - Retrospective</h2>
-        <button class="toggle-btn" onclick="toggleSection('retro')">See More</button>
-        <div id="retro" class="content">
-            <p><strong>Personal Review</strong></p>
-            <img src="8.png" width=500>
-            <h3>Individual Strengths, Weaknesses</h3>
-            <p>Compared to Trimester 1, I have improved signifcantly. From not doing any work and leaving it to the last minute, to being productive everyday when I walked in has shown me my potential and what I could do when im productive. I would still like to improve on my collaboration skills as well as checking in with you more often.</p>
-            <h4>Overall Trimester Grade: 9.4/10</h4>
-            <p>5 Points come from each of the things I was able to accomplish this Trimester.</p>
-            <p>1 Point comes from solo demoing my groups features and sites to 10 differente people</p>
-            <p>1 Point come from my blog write up on my specific feature, outlining how it meets CPT requriments</p>
-            <p>1 Point comes from completing and doing an anlyisis on my AP college board MCQ practice test</p>
-            <p>The 0.4 comes from my improvments from Trimester 1, where I completely avoided work and was lazy. Additonally, our group was forced to restart, completely remaking our features with just a week left. Following this we worked on better improving our communication and collaboration.</p>
-        </div>
-    </div>
-
-</body>
+</div>
