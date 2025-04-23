@@ -6,7 +6,7 @@ hide: true
 image: /images/mario_animation.png
 ---
 
-
+{% include nav/home.html %}
 
 <style>
         body {
