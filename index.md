@@ -6,7 +6,6 @@ hide: true
 image: /images/mario_animation.png
 ---
 
-{% include nav/home.html %}
 
 <style>
         body {
@@ -77,10 +76,10 @@ image: /images/mario_animation.png
 
 <div class="grid-container">
     <div class="backdrop"></div>
-    <a href="https://vincenth14.github.io/Vincent_2025/2025/1/28/Final-Project_IPYNB_2_.html" class="grid-button">
+    <a href="https://vincenth14.github.io/Vincent_2025/FINAL" class="grid-button">
         MCQ 1 Review
     </a>
-    <a href="https://vincenth14.github.io/Vincent_2025/2024/10/21/Reflection_IPYNB_2_.html" class="grid-button">
+    <a href="https://vincenth14.github.io/Vincent_2025/FINAL" class="grid-button">
         MCQ 2 Review
     </a>
     <a href="https://vincenth14.github.io/Vincent_2025/2024/10/09/3-11_IPYNB_2_.html" class="grid-button">
