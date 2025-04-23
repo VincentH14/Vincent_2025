@@ -82,8 +82,8 @@ image: /images/mario_animation.png
     <a href="https://vincenth14.github.io/Vincent_2025/FINAL" class="grid-button">
         MCQ 2 Review
     </a>
-    <a href="https://vincenth14.github.io/Vincent_2025/2024/10/09/3-11_IPYNB_2_.html" class="grid-button">
-        MCQ 3 Review(WIP)
+    <a href="https://vincenth14.github.io/Vincent_2025/ideas" class="grid-button">
+        Areas of Interest
     </a>
     <a href="https://vincenth14.github.io/Vincent_2025/2024/10/09/3-1_IPYNB_2_.html" class="grid-button">
         3.1
